@@ -7,9 +7,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700; 800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap"
       rel="stylesheet"
     />
+    <script defer src="./index.js"></script>
     <link rel="stylesheet" href="./index.css" type="text/css" />
     <title>Bose | Welcome</title>
   </head>
@@ -19,15 +20,100 @@
         <a href="#" class="logo"
           ><img src="../media/Logo.png" alt="Bose Website Logo"
         /></a>
-        <button class="burger">burger</button>
+        <button class="burger"></button>
       </nav>
-
-      <div>Burger slide out</div>
+      <div class="title">
+        <img class="waves" src="../media/waves.png" alt="sound waves" />
+        <h1>The world shades.<br />Your music shines.</h1>
+      </div>
     </header>
+    <div class="menu">
+      <div class="menu_header">
+        <a href="#" class="logo"
+          ><img src="../media/Logo.png" alt="Bose Website Logo"
+        /></a>
+        <button class="close"></button>
+      </div>
+      <nav>
+        <ul class="links">
+          <li class="link">Home</li>
+          <li class="link">Recommended</li>
+          <li class="link">Categories</li>
+          <li class="link">How to buy</li>
+        </ul>
+      </nav>
+    </div>
     <main>
-      <div>Recommended</div>
-      <div>Browse Bose products by category</div>
-      <div>Why buy direct from Bose</div>
+      <section class="recommended">
+        <h2>Recommended</h2>
+        <div class="product_list">
+          <article class="product">
+            <img src="../media/speaker3.png" />
+            <h3>Bose portable Smart speaker</h3>
+            <p class="descr">Smart home</p>
+            <p class="price">$ 399.00</p>
+          </article>
+          <article class="product">
+            <img src="../media/speaker1.png" />
+            <h3>SoundLink Flex Bluetooth speaker</h3>
+            <p class="descr">Portable bluetooth</p>
+            <p class="price">$ 149.00</p>
+          </article>
+          <article class="product">
+            <img src="../media/speaker2.png" />
+            <h3>SoundLink Color Bluetooth speaker II</h3>
+            <p class="descr">Portable bluetooth</p>
+            <p class="price">$ 129.00</p>
+          </article>
+        </div>
+      </section>
+      <section class="categories">
+        <h2>Browse Bose products by category</h2>
+        <div class="category">
+          <div class="duo">
+            <img class="first" src="../media/smile.png" /><img
+              class="second"
+              src="../media/girlcamera.png"
+            />
+          </div>
+          <p>Headphones & earbuds</p>
+        </div>
+        <div class="category">
+          <div class="duo">
+            <img class="first" src="../media/speakerblue1.png" /><img
+              class="second"
+              src="../media/speakerblue2.png"
+            />
+          </div>
+          <p>Speakers</p>
+        </div>
+        <div class="category">
+          <div class="duo2">
+            <img class="first" src="../media/dudeglasses.png" /><img
+              class="second"
+              src="../media/womanglasses.png"
+            />
+          </div>
+          <p>Audio sunglasses</p>
+        </div>
+      </section>
+      <section class="why">
+        <h2>Why buy direct from Bose</h2>
+        <div class="reasons">
+          <ul class="reason_list">
+            <li>Free 2-day shipping and returns</li>
+            <li>90-day risk-free trial</li>
+            <li>World class customer service</li>
+            <li>My Bose account management</li>
+          </ul>
+          <p class="final_reason">
+            A great product is more than what's in the box. It's a promise of
+            premium performance, world-class support, and everything you expect
+            from a trusted brand. It's just one of many reasons why you'll shop
+            with confidence on Bose.com.
+          </p>
+        </div>
+      </section>
     </main>
     <footer></footer>
   </body>
